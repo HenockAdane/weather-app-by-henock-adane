@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7222095cb9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="welcome">
+        <h1>Welcome to Henock's Weather Application built using the OpenWeatherMap API</h1>
+        <button id="intro-btn">Click to start</button>
+    </div>
+    <div class="container">
+        <header>
+            <input type="text" id="location" placeholder="Enter Location" >
+            <button id="submit">Get Weather</button>
+        </header>
+        <main>
+            <h1 id="temph1"></h1>
+            <h3 id="feels-like"></h3>
+            <!-- <ul class="kfc-container">
+                <a class="kfc k" href="#">K</a>
+                <a class="kfc f" href="#">F</a>
+                <a class="kfc c" href="#">C</a>
+            </ul> -->
+        </main>
+
+        <section class="extra-info">
+            <div class="infoBoxes humidity">
+                <div class="temp-icons humidity-icon"><i class="fas fa-tint"></i></div>
+                <p class="humidityP"></p>
+            </div>
+
+            <div class="infoBoxes minMax">
+                <div class="temp-icons minMax-icon"><i class="fas fa-temperature-high"></i></div>
+                <p class="minMaxP"></p>
+            </div>
+
+
+            <div class="infoBoxes wind">
+                <div class="temp-icons wind-icon"><i class="fas fa-wind"></i></div>
+                <p class="windP"></p>
+            </div>
+        </section>
+
+        <!-- <section class="week-history">
+            <ul>
+                <li>
+                    <div>
+                        <i class="fas fa-wind"></i>Thursday
+                    </div>
+
+                    <div class="b">
+                        <div>-2°/-4°</div>
+                    </div>
+                </li>
+            </ul>
+        </section> -->
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+
